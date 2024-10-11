@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contextual Document Embedding Space Visualization</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Contextual Document Embedding Space Visualization</h2>
+        <h4 class="text-muted">By: Simran Butalia | Based on  <a href="https://arxiv.org/abs/2410.02525" target="_blank">research paper</a>. </h4>
+        <div id="query-container">
+            <label for="query-select">Select Query:</label>
+            <select id="query-select" onchange="handleSelectChange()">
+                <option value="">--Select a query--</option>
+                <option value="Effectiveness of gene therapy for cystic fibrosis">Effectiveness of gene therapy for cystic fibrosis</option>
+                <option value="Advancements in gene therapy for muscular dystrophy">Advancements in gene therapy for muscular dystrophy</option>
+                <option value="Batman Rocks">Batman Rocks</option>
+            </select>
+            
+            <p class="text-muted">or enter your own:</p>
+            <input type="text" id="query-input" placeholder="Enter custom query">
+        
+            <p>
+                <button id="query-button">Search</button>
+                <button id="clear-button">Clear Query</button>
+            </p>
+        </div>
+        <div id="embeddingPlot"></div>
+        <div id="tooltip"></div>
+        <div id="legend">
+            <h3>Legend</h3>
+            <ul>
+                <li><span class="legend-color blue"></span> Gene Therapy for Cystic Fibrosis</li>
+                <li><span class="legend-color green"></span> Gene Therapy for Muscular Dystrophy</li>
+                <li><span class="legend-color red"></span> Query</li>
+            </ul>
+        </div>
+        <script src="script.js" defer></script>
+        <div id="footer">
+            <p>This visualization illustrates how different documents are positioned in an embedding space based on their contextual similarity. By using contrastive learning, we can effectively group documents that are semantically related, enhancing the retrieval accuracy for specific queries. 
+                To learn more about the concepts behind contextual embeddings and how they improve retrieval systems, visit the <a href="https://arxiv.org/abs/2410.02525" target="_blank">original research paper</a>.</p>
+            <p>Visualization Created by <a href="https://www.linkedin.com/in/sbutalia" target="_blank">Simran Butalia</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
