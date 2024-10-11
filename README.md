@@ -2,7 +2,7 @@
 
 ## Overview
 
-I love learning, and with the rapid advancements in AI, there's always something new to explore every day. Today was one of those "aha" moments for me, so I decided to create a quick app visualization using ChatGPT. In just a few minutes, I was able to grasp the concept and bring it to life.
+I love learning, and with the rapid advancements in AI, there's always something new to explore every day. Today was one of those "aha" moments for me, so I decided to create a quick app visualization using OpenAI o1. In just a few minutes, I was able to grasp the concept and bring it to life.
 
 The inspiration behind this project came from the research paper ["Contextual Document Embeddings"](https://arxiv.org/abs/2410.02525) by John X. Morris and Alexander M. Rush. 
 
@@ -25,6 +25,7 @@ In this visualization, documents are represented as 3D points, and similar docum
 
 Check out the live demo of the app here:  
 👉 [Live Demo on Glitch](https://simlabs-context-doc-embeds.glitch.me/)
+👉 [Run on Replit](https://replit.com/@esimsimma/simlabs-context-doc-embeds)
 
 ### Preview
 
@@ -71,8 +72,3 @@ The research paper that inspired this project is ["Contextual Document Embedding
 Feel free to reach out if you're as curious as I am about contextual embeddings or if you have any questions about this project. I'm always excited to connect with fellow learners and enthusiasts!
 
 - **LinkedIn**: [Simran Butalia](https://www.linkedin.com/in/sbutalia)
-- **GitHub**: [Simlabs Context Doc Embeds](https://github.com/simlabs-context-doc-embeds)
-
----
-
-**Bonus:** If you enter "Batman" into the query, you might just discover some interesting ideas for gene therapy. After all, who knows what mysteries lie in the bat signal? 🦇
